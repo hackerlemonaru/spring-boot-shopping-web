@@ -127,3 +127,43 @@ To start the app, follow these simple steps:
 5. When you see a message like `Started Application in X seconds`, it means the app is ready.
 
 ---
+
+## 🌐 Accessing the Web App
+
+Once the app is running, use any web browser (Chrome, Firefox, Edge, Safari) to open the app:
+
+1. Open your browser.
+2. Go to this URL:
+
+   ```
+   http://localhost:8080/
+   ```
+
+3. The app’s homepage will load. You can browse products, create an account, and start shopping.
+
+---
+
+## 🔐 User Features Overview
+
+spring-boot-shopping-web includes these user functions:
+
+- **User Registration and Login:** Create an account with an email and password. Login to save your shopping cart and view your orders.
+- **Product Browsing:** View products by category and search for specific items.
+- **Shopping Cart:** Add items to your cart and update quantities before checkout.
+- **Order Management:** Place orders and view past purchases in your profile.
+- **Secure Sessions:** Your data and login details are protected using security features.
+
+---
+
+## 🛎️ Admin Features
+
+If you want to manage products, the app has an admin section:
+
+- **Add New Products:** Include product name, description, price, and images.
+- **Edit Existing Products:** Update details or prices.
+- **Delete Products:** Remove items from the store.
+
+To access admin features, you will need special access rights configured during setup. Typically, this means creating an admin user in the database.
+
+---
+
