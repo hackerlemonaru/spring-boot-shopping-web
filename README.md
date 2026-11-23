@@ -207,3 +207,11 @@ Check the repository for license details if you plan to modify or share the app.
 
 To update to a newer version in the future:
 
+1. Visit the release page again.
+2. Download the new `.jar` file.
+3. Replace the old file with the new one in your folder.
+4. Restart the application.
+
+---
+
+spring-boot-shopping-web gives you a ready-to-use online store on your computer. Follow each step carefully to install and run it. If you need help, look at the troubleshooting tips or resources section.
